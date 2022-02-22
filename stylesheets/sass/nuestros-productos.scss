@@ -1,0 +1,52 @@
+@import "./partials/colors";
+@import "./partials/fonts";
+
+nav{
+    ul{
+        background-color: $primary-color;
+        font-style: italic;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        list-style-type: none;
+        display: flex;
+        
+        li{
+            margin: 20px;
+            border-color: $tertiary-color;
+            
+        }
+        a{
+            text-decoration-line: none;
+            color: $tertiary-color;
+        }
+    }
+}
+h1{
+    background-color: $secondary-color;
+    color: $tertiary-color;
+}
+
+
+body {
+    font-family: $primary-font;
+    font-size: 20px;
+}
+.flexcontainer{
+    background-color: lightblue;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flexItem{
+    background-color: $primary-color;
+    text-align: center;
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+
+
+

@@ -1,0 +1,104 @@
+body {
+  background-color: #faa913;
+}
+
+nav ul {
+  background-color: #aeb63b;
+  font-style: italic;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
+  display: flex;
+}
+nav ul li {
+  margin: 20px;
+  border-color: white;
+}
+nav ul a {
+  text-decoration-line: none;
+  color: white;
+}
+
+h1 {
+  background-color: #b81d1d;
+  padding: 20px;
+  border: 15px;
+  color: white;
+  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+h2 {
+  color: #b81d1d;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 16px;
+  color: #b81d1d;
+  text-align: right;
+}
+
+h5 {
+  font-size: 22px;
+  word-spacing: 40px;
+  color: #b81d1d;
+  text-indent: 5px;
+}
+
+ul {
+  color: #b81d1d;
+}
+
+p {
+  border-style: solid;
+  border-color: #b81d1d;
+  border-radius: 10px;
+  margin: 5px 10px 5px 10px;
+  padding: 15px;
+  color: black;
+  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+  line-height: 50px;
+}
+p a {
+  color: #aeb63b;
+}
+p a:hover {
+  color: #b81d1d;
+  font-style: bold;
+}
+p a:hover:visited {
+  color: #121283;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
+  padding-block-end: 2px;
+  padding-block-start: 2px;
+  border-radius: 2px;
+  margin: 10px;
+}
+button:hover {
+  color: white;
+  background-color: #909732;
+}
+
+.container {
+  background-color: #aeb63b;
+  border-radius: 10px;
+}
+
+ul {
+  padding: 40px;
+  border-left: red 10px solid;
+}
+
+h5 {
+  padding: 40px;
+  border-left: #00fc00 20px solid;
+}
